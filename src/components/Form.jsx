@@ -6,7 +6,7 @@ function Form(props) {
       <input type="text" placeholder="Username" />
       <input type="password" placeholder="Password" />
         {/* {props.isRegistered === false && ( */}
-          {props.isRegistered &&  
+          {!props.isRegistered &&  
 
         <input type="password" placeholder="Confirm Password" />
         }
